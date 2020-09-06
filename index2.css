@@ -1,11 +1,59 @@
-.hederleft{
-    float:left;
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
 }
 
-ul{
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+header{
+    height:50px;
+    background-color:pink;
+    z-index:10px;
+    position: fixed;
+    top: 0;
+    width:100%;
+}
+
+.container{
+    width:600px;
+    margin:0 auto;
+}
+
+.leftHeader{
+    float:left;
+    padding:5px 0;
+}
+
+.leftHeader h3{
+  color:white;
+}
+
+.leftHeader p{
+    color:rgb(144, 51, 153);
+    font-size:1px;
+    margin-left:25px;
+}
+
+.rightHeader{
     float:right;
 }
 
-.main{
-    background-image:"https://raw.github.com/wiki/rina381/test1.github.io/images/.png";
+.rightHeader li{
+    float:left;
+}
+
+.mainUp{
+    background-image:url("flower420144_TP_V.jpg");
+    background-size:cover;
+    padding:100px 80px;
+    height:500px;
 }
