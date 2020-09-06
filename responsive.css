@@ -1,0 +1,10 @@
+/*タブレットサイズ*/
+@media(max-width:1000px){
+}
+
+/*スマホサイズ*/
+@media(max-width:670px){
+    input,textarea{
+        width:50%;
+    }
+}    
