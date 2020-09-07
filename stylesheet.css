@@ -144,9 +144,6 @@ a{
 
 }
 
-.right-profile{
-}
-
 .list-title{
     color:rgb(180, 123, 17);
     margin:80px;
@@ -199,11 +196,11 @@ a{
 }
 
 input,textarea{
-    width:30%;
+    width:40%;
 }
 
 textarea{
-    padding:15px 0;
+    padding:30px 0;
 }
 
 .send{
@@ -240,7 +237,9 @@ footer p{
     .mainTitle h1{
          font-size:25px;
     }
-      
+    input,textarea{
+        width:70%;
+    }
 
 }
 
@@ -263,10 +262,7 @@ footer p{
     .main2Title h1{
         font-size:25px;
         color:rgb(167, 133, 102);
-      background-color:rgba(255, 255, 255, 0.7);
-      opacity:0.5px;
-    }
-    
+      　background-color:rgba(255, 255, 255, 0.7);
+      　opacity:0.5px;
+    }    
 }
-
-
