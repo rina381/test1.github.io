@@ -80,6 +80,10 @@ header{
   opacity:0.5px;
 }
 
+.main2Title{
+    display:none;
+}
+
 span{
     color:rgb(231, 79, 79,0.8);
 }
@@ -94,20 +98,17 @@ span{
     color:white;
     padding:5px 40px;
     opacity:0.5;
-    z-index:0;
     box-shadow:0 7px rgb(114, 4, 56);
 }
 
 .btn:hover{
     opacity:1;
-    z-index:5px;
 }
 
 .btn:active{
     box-shadow:none;
     position:relative;
     top:7px;
-    z-index:5px;
 }
 
 a{
@@ -233,3 +234,39 @@ footer p{
     padding-right:5px;
 
 }
+
+/*レスポンシブ*/
+@media(max-width:690px){
+    .mainTitle h1{
+         font-size:25px;
+    }
+      
+
+}
+
+@media(max-width:630px){
+    .profile-btn,.work-btn,.form-btn{
+        display:block;
+        margin:50px 10px;
+        width:100%;
+    }
+
+    .mainTitle{
+        display:none;
+    }
+
+    .main2Title{
+        display:block;
+        padding:100px 0 80px 40px;
+    }
+    
+    .main2Title h1{
+        font-size:25px;
+        color:rgb(167, 133, 102);
+      background-color:rgba(255, 255, 255, 0.7);
+      opacity:0.5px;
+    }
+    
+}
+
+
